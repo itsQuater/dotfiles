@@ -5,16 +5,13 @@
         "type": "file"
     },
    "modules": [
-        "break",
-        "break",
-        "break",
         {
             "type": "custom",
             "format": "\u001b[90m┌──────────────────────Hardware──────────────────────┐"
         },
         {
             "type": "host",
-            "key": "PC",
+            "key": "┌ PC",
             "keyColor": "green"
         },
         {
@@ -50,7 +47,7 @@
         },
         {
             "type": "os",
-            "key": "OS",
+            "key": "┌ OS",
             "keyColor": "yellow"
         },
         {
@@ -68,19 +65,27 @@
             "key": "└ └",
             "keyColor": "yellow"
         },
+        {
+            "type": "custom",
+            "format": "\u001b[90m└────────────────────────────────────────────────────┘"
+        },
         "break",
         {
-            "type": "de",
-            "key": "DE",
-            "keyColor": "blue"
+            "type": "custom",
+            "format": "\u001b[90m┌────────────────────Environment─────────────────────┐"
         },
         {
-            "type": "wm",
-            "key": "│ ├",
+            "type": "de",
+            "key": "┌ DE",
             "keyColor": "blue"
         },
         {
             "type": "wmtheme",
+            "key": "│ ├",
+            "keyColor": "blue"
+        },
+        {
+            "type": "wm",
             "key": "└ └",
             "keyColor": "blue"
         },
@@ -88,7 +93,5 @@
             "type": "custom",
             "format": "\u001b[90m└────────────────────────────────────────────────────┘"
         },
-        "break",
-	"beak",
     ]
 }
